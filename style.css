@@ -1,1 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 
+header h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.introduction{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.introduction-image{
+    margin-left: 30px;
+}
+
+.introduction-image img{
+    width: 350px;
+    
+}
+
+.introduction-text{
+    padding-top: 30px;
+
+}
+
+.introduction-text h1{
+    font-size: 2em;
+}
+
+.introduction-text p{
+    text-align: justify;
+    
+}
+
+.introduction-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(45deg, green, red, green);
+    font-weight: bold;
+}
+
+.introduction-btn:hover{
+    color: white;
+    cursor: pointer;
+}
