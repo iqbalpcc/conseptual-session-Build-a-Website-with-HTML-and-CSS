@@ -62,8 +62,13 @@ header h1{
 
 .dhaka{
     width: 250px;
-    border: 1px solid;
+    border: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(#f6b73c, #4d9f0c);
+    border-image-slice: 1;     
     height: 450px;
+    box-shadow: 10px 10px 30px grey;
+    
 }
 .dhaka-img img{
     width: 100%;
@@ -78,12 +83,24 @@ header h1{
 }
 
 .dhaka-btn{
+    border: 1px solid black;
     padding: 5px 10px;
     background-color: turquoise;
     color: white;
     margin: 0 auto;
+    border-radius: 5px;
+
+
+    
     
 }
+
+.dhaka-btn:hover{
+    background-color: blue;
+    color: crimson;
+    cursor: pointer;
+}
+
 
 .division-card{
     margin: 0 auto;
@@ -95,4 +112,9 @@ header h1{
 footer{
     margin-top: 50px;
     text-align: center;
+}
+
+.text {
+    text-align: center;
+    padding: 7px;
 }
